@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">ProgettoMobileCamilloniTiseniGiri</string>
+
+    <!--Stringhe menù a tendina sulla top app bar-->
+    <string name="settings">Impostazioni</string>
+    <string name="faq">FAQ</string>
+    <string name="share">Condividi</string>
+
+    <!--Stringhe Bottom Navigation Bar-->
+    <string name="home">Home</string>
+    <string name="corsi">Corsi</string>
+    <string name="wishlist">WishList</string>
+    <string name="preferiti">Preferiti</string>
+    <string name="utente">Utente</string>
+
+    <!--Stringhe Fragment Home-->
+    <string name="lastLesson">Riprendi la scorsa lezione</string>
+    <string name="popular">Popolari</string>
+    <string name="consigliati">Consigliati</string>
+    <string name="recentlyAdded">Aggiunti di Recente</string>
+    <string name="courseRedirect">Vai al corso</string>
+
+
+    <!--Stringhe Card della lezione-->
+    <string name="lessonTitle">Titolo Lezione</string>
+    <string name="description">Descrizione Lezione</string>
+
+    <!--Stringhe Area Utente-->
+    <string name="logout">Esci</string>
+    <string name="yourCourses">I tuoi corsi</string>
+    <string name="nome">Nome</string>
+    <string name="cognome">Cognome</string>
+    <string name="email">Email</string>
+    <string name="catPref">Le tue Categorie Preferite</string>
+    <string name="modNotturna">Modalità notturna</string>
+    <string name="dati">I miei dati</string>
+    <string name="miecategorie">Le mie categorie</string>
+
+
+    <!--Stringhe Fragment Catalogo-->
+    <string name="categories">Categorie</string>
+    <string name="search">Cerca</string>
+    <string name="top">Top in</string>
+
+
+    <!--Stringhe Fragment Categoria-->
+    <string name="categoria">Nome Categoria:</string>
+
+    <!--Stringhe Fragment Ricerca-->
+    <string name="ricerca">Risultati ricerca per: </string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="titoloApp">Corsi per Tutti</string>
+
+    <!--Stringhe menùv login/registrati-->
+    <string name="firstname">Nome</string>
+    <string name="lastname">Cognome</string>
+
+    <!--Stringhe Bottom Navigation Bar del Corso-->
+    <string name="info">Info</string>
+    <string name="lezioni">Lezioni</string>
+    <string name="dispense">Dispense</string>
+    <string name="forum">Forum</string>
+    <string name="nome_corso">Nome del Corso</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="backToLogin">Torna al Login</string>
+    <string name="register">Registrati</string>
+    <string name="category">Categoria</string>
+    <string name="showRisposta">Visualizza Risposte</string>
+    <string name="aggiungiDomanda">Aggiungi una Domanda</string>
+    <string name="aggiungiRisposta">Aggiungi una Risposta</string>
+
+
+    <!--Stringhe Activity Corso-->
+    <string name="sezionenondisponibile">Per visualizzare questa sezione devi essere iscritto al corso</string>
+
+    <!--Stringhe Fragment Info Corso-->
+    <string name="descrizioneCorso">Descrizione:</string>
+    <string name="docenteCorso">Docente:</string>
+    <string name="numeroLezioni">Numero di lezioni:</string>
+    <string name="prezzoCorso">Prezzo:</string>
+    <string name="iscriviti">Iscriviti</string>
+
+    <!--Stringhe Fragment Lezioni-->
+    <string name="listaLezioni">Lista delle lezioni:</string>
+    <string name="video_id">3tH4dyOPZnY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/FragmentHome"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/FragmentCatalogo"
+        android:enabled="true"
+        android:icon="@drawable/corsi"
+        android:title="@string/corsi"/>
+    <item
+        android:id="@+id/FragmentYourCourses"
+        android:enabled="true"
+        android:icon="@drawable/ituoicorsi"
+        android:title="@string/yourCourses"/>
+
+    <item
+        android:id="@+id/FragmentPreferiti"
+        android:enabled="true"
+        android:icon="@drawable/wishlist"
+        android:title="@string/wishlist"/>
+    <item
+        android:id="@+id/FragmentUser"
+        android:enabled="true"
+        android:icon="@drawable/user_area"
+        android:title="@string/utente"/>
+</menu>

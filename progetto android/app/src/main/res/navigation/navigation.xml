@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/FragmentHome">
+
+    <fragment android:id="@+id/FragmentHome"
+        android:label="@string/home"
+        android:name="com.example.progettomobilecamillonitisenigiri.Main.FragmentHome"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_FragmentHome_to_FragmentUser"
+            app:destination="@id/FragmentUser" />
+    </fragment>
+    <fragment android:id="@+id/FragmentCatalogo"
+        android:label="@string/preferiti"
+        android:name="com.example.progettomobilecamillonitisenigiri.Main.FragmentCatalogo"
+        tools:layout="@layout/fragment_catalogo">
+        <action
+            android:id="@+id/action_FragmentCatalogo_to_FragmentCategoria"
+            app:destination="@id/FragmentCategoria" />
+        <action
+            android:id="@+id/action_FragmentCatalogo_to_FragmentRicerca"
+            app:destination="@id/FragmentRicerca" />
+    </fragment>
+    <fragment android:id="@+id/FragmentPreferiti"
+        android:label="@string/preferiti"
+        android:name="com.example.progettomobilecamillonitisenigiri.Main.FragmentFavorites"
+        tools:layout="@layout/fragment_favorites"/>
+    <fragment android:id="@+id/FragmentUser"
+        android:label="@string/utente"
+        android:name="com.example.progettomobilecamillonitisenigiri.Main.FragmentUser"
+        tools:layout="@layout/fragment_user"/>
+    <fragment android:id="@+id/FragmentYourCourses"
+        android:label="@string/yourCourses"
+        android:name="com.example.progettomobilecamillonitisenigiri.Main.FragmentYourCourses"
+        tools:layout="@layout/fragment_personal_courses"/>
+    <fragment android:id="@+id/FragmentCategoria"
+        android:label="@string/home"
+        android:name="com.example.progettomobilecamillonitisenigiri.Main.FragmentCategoria"
+        tools:layout="@layout/fragment_categoria">
+        <argument
+            android:name="categoria"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/FragmentRicerca"
+        android:name="com.example.progettomobilecamillonitisenigiri.Main.FragmentRicerca"
+        android:label="fragment_ricerca"
+        tools:layout="@layout/fragment_ricerca">
+        <argument
+            android:name="query"
+            app:argType="string" />
+    </fragment>
+</navigation>

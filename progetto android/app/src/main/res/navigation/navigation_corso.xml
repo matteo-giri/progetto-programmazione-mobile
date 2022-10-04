@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_corso"
+    app:startDestination="@id/FragmentInfoCorso">
+
+    <fragment
+        android:id="@+id/FragmentInfoCorso"
+        android:name="com.example.progettomobilecamillonitisenigiri.Corso.FragmentInfoCorso"
+        android:label="fragment_info_corso"
+        tools:layout="@layout/fragment_info_corso" />
+    <fragment
+        android:id="@+id/FragmentForumCorso"
+        android:name="com.example.progettomobilecamillonitisenigiri.Corso.FragmentForumCorso"
+        android:label="fragment_forum_corso"
+        tools:layout="@layout/fragment_forum_corso" />
+    <fragment
+        android:id="@+id/FragmentLezioniCorso"
+        android:name="com.example.progettomobilecamillonitisenigiri.Corso.FragmentLezioniCorso"
+        android:label="fragment_lezioni_corso"
+        tools:layout="@layout/fragment_lezioni_corso" />
+    <fragment
+        android:id="@+id/FragmentDispenseCorso"
+        android:name="com.example.progettomobilecamillonitisenigiri.Corso.FragmentDispenseCorso"
+        android:label="fragment_dispense_corso"
+        tools:layout="@layout/fragment_dispense_corso" />
+</navigation>

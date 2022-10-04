@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/FragmentInfoCorso"
+        android:enabled="true"
+        android:icon="@drawable/info"
+        android:title="@string/info"/>
+    <item
+        android:id="@+id/FragmentLezioniCorso"
+        android:enabled="true"
+        android:icon="@drawable/lezione"
+        android:title="@string/lezioni"/>
+    <item
+        android:id="@+id/FragmentDispenseCorso"
+        android:enabled="true"
+        android:icon="@drawable/dispense"
+        android:title="@string/dispense"/>
+
+    <item
+        android:id="@+id/FragmentForumCorso"
+        android:enabled="true"
+        android:icon="@drawable/forum"
+        android:title="@string/forum"/>
+</menu>
